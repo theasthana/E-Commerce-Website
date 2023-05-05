@@ -1,0 +1,40 @@
+main {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Style for the side panel */
+.side_panel {
+    background-color: #f1f1f1;
+    width: 25%;
+    overflow-x: hidden;
+    padding-top: 60px;
+  }
+.side_panel ul {
+  list-style:none !important;
+}  
+  /* Style for the links inside the side panel */
+  .side_panel a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+    display: block;
+  }
+  
+  /* Change the link color on hover */
+  .side_panel a:hover {
+    background-color: #ddd;
+    color: #000;
+  }
+  
+  /* Active link */
+  .side_panel a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  /* Css for main_serction */
+  .main_section {
+    width: 70%;
+  }

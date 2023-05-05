@@ -1,0 +1,26 @@
+main {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.login_div {
+    margin: 50px 0px 50px 0px;
+    padding: 25px 50px 25px 50px;
+}
+.login_form>input {
+    border: 1px solid green;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 20px;
+}
+.submit_button {
+    background-color: lightgreen;
+    color: white;
+    width: 100px;
+    margin-top: 15px;
+}

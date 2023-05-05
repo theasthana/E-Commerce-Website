@@ -1,0 +1,54 @@
+.main_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+    min-height: 80vh;
+    padding: 20px;
+  }
+  
+  .main_section h1 {
+    text-align: left;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .main_section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  
+  .main_section form label,
+  .main_section form input[type="submit"] {
+    margin-bottom: 10px;
+  }
+  
+  .main_section table {
+    width: 70%;
+    border-collapse: collapse;
+  }
+  
+  .main_section table th,
+  .main_section table td {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .main_section table th {
+    background-color: #f2f2f2;
+  }
+  .add_new_btn {
+    width: 20%;
+    height: 50px;
+    font-size: 24px;
+    margin: 100px 0px 100px 0px;
+  }  
+  

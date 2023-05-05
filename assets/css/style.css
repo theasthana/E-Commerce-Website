@@ -1,0 +1,123 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* styling header */
+
+/* Top panel */
+.top_panel {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 50px;
+    padding-right: 20px;
+  }
+  
+  .nav_list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav_item {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  .nav_link {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Header div */
+  .header_div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .logo {
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+  }
+  
+  .logo_red {
+    color: orange !important;
+    font-size: 42px;
+    font-weight: 900;
+  }
+  
+  .search_box {
+    width: 300px;
+    height: 30px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .submit_btn {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .help {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .help>a {
+    text-decoration: none;
+    color: white;
+    background-color:gold;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: 800;
+  }
+  /* Bottom panel */
+  .bottom_panel {
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  .bottom_panel_list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .bottom_panel_list li {
+    flex: 1;
+  }
+  
+  .c_link {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+/* Styling Footer */
+.footer_div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: white;
+    background-color: #555;
+}
+.footer_contact {
+    margin: 15px;
+}
+.footer_social_media {
+    margin: 15px 45px 15px 15px;
+}
