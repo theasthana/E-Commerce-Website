@@ -12,7 +12,7 @@
         <?php include("include/header.inc.php") ?>
 </header>
 
-<main>
+<main STYLE="HEIGHT:400PX;">
     <h1> Thank you, You have been successfully registerd to our platform. Go back and login.</h1>
 
 </main>

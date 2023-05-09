@@ -12,7 +12,7 @@
         <?php include("include/header.inc.php") ?>
 </header>
 
-<main>
+<main STYLE="HEIGHT:400PX">
     <h1> Thank you, your message has been recorded and you will recieve a reply soon. </h1>
 </main>
 

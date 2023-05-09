@@ -16,7 +16,7 @@ require("include/db_connection.inc.php")
         <?php include("include/header.inc.php") ?>
 </header>
 
-<main>
+<main STYLE="HEIGHT:4   00PX;">
     <h1> Your order has been successfuly placed.
 </h1>
 </main>

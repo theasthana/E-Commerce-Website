@@ -1,5 +1,5 @@
 <?php
-// require('include/db_connection.inc.php');
+require('include/db_connection.inc.php');
 // require('include/functions.inc.php');
 ?>
 
