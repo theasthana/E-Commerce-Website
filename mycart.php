@@ -1,6 +1,7 @@
 <?php
 require("include/db_connection.inc.php");
 require("include/functions.inc.php");
+session_start();
 
 $total = 0;
 $item = 0;
@@ -26,6 +27,7 @@ $item = 0;
 
         <?php
 $user = $_SESSION['user_id'];
+$item_list = array();
 
 $sql = 'SELECT * FROM cart WHERE user_id='. $user;
 $result = mysqli_query($conn, $sql);
@@ -34,6 +36,7 @@ $result = mysqli_query($conn, $sql);
             echo '<div class="product_container">';
 
             while ($r = mysqli_fetch_array($result)) {
+                $item_list[] = $r[0];
 
 $sql = "SELECT * FROM products WHERE id=$r[2]";
 $rst = mysqli_query($conn, $sql);
@@ -61,6 +64,9 @@ if (mysqli_num_rows($rst) > 0) {
 
             echo '</div>';
         }
+        $_SESSION['items'] = $item_list;
+        $_SESSION['from'] = 'cart';
+        $_SESSION['total'] = $total;
         ?>
 
 <form action="checkout.php" method="post" class="checkout_btn_form" style="width:100%; padding: 50px 0 50px 40%;">

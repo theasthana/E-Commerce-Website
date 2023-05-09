@@ -85,7 +85,17 @@ if (isset($_POST['add_cart']) && $is_logged_in) {
                         <a href="login.php"><button type="button">Login to Add to Cart</button></a>
                     <?php } ?>
                 </form>
+
+                <form method="POST" action="checkout.php">
+                <input type="hidden" name="total" value="<?php echo $product_sp ?>">
+    <input type="hidden" name="item" value="<?php echo 1; ?>" >
+    <?php if ($is_logged_in) { ?>
                 <button type="submit" name="buy_now">Buy Now</button>
+                <?php } else { ?>
+                    <a href="login.php"><button type="button">Login  To Buy</button></a>
+                    <?php } ?>
+
+                    </form>
             </div>
         </div>
     </div>

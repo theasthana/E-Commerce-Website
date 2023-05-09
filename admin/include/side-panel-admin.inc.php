@@ -4,4 +4,5 @@
 <li><a class="side_panel_link" href="orders.php">Orders </a></li>
 <li><a class="side_panel_link" href="products.php">Products </a></li>
 <li><a class="side_panel_link" href="category.php">Category </a></li>
+<li><a class="side_panel_link" href="logout.php">Log Out </a></li>
 </ul>
